@@ -1,8 +1,8 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/backend/(.*)",
-      "destination": "http://13.126.63.182:5001/api/$1"
+      "src": "/backend/(.*)",
+      "dest": "http://13.126.63.182:5001/api/$1"
     }
   ]
 }
